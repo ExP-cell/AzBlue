@@ -1,0 +1,21 @@
+{
+	"name":   "Goblin",
+	"type":   "Tier 1 Enemy",
+	"level":  1,
+	"avatar": "G1",
+
+	"stats": {
+		"atk": 6,
+		"spd": 3,
+		"hp":  55
+	},
+
+	"skills": [],
+
+	"exp_give": 15,
+
+	"drops": [
+		{ "item": "Goblin Ear",  "chance": 0.30, "qty": [1, 2] },
+		{ "item": "Cloth",  "chance": 0.60, "qty": [1, 1] }
+	]
+}

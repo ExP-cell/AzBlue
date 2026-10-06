@@ -1,0 +1,23 @@
+﻿{
+    "name":   "Leak Ghoul",
+    "type":   "Tier 2 Enemy",
+    "level":  2,
+    "avatar": "GH",
+
+    "stats": {
+        "atk": 9,
+        "spd": 7,
+        "hp":  80
+    },
+
+    "skills": [
+        { "id": "drain", "name": "Memory Drain", "chance": 0.25, "effect": "damage_boost", "multiplier": 1.3 }
+    ],
+
+    "exp_give": 35,
+
+    "drops": [
+        { "item": "Corrupted Data",   "chance": 0.60, "qty": [1, 2] },
+        { "item": "Memory Fragment",  "chance": 0.35, "qty": [1, 1] }
+    ]
+}

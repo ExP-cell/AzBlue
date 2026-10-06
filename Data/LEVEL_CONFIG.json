@@ -1,0 +1,7 @@
+{
+	"xpBase":     100,
+	"xpExponent": 1.55,
+	"xpGrowth":   45,
+	"maxLevel":   50,
+	"statPointsPerLevel": 3
+}

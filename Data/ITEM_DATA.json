@@ -1,0 +1,23 @@
+{
+	"potion": {
+		"id":"potion", "name":"Potion", "icon":"[P]",
+		"desc":"Restores 35 HP.",
+		"energyCost": 15, "target": "self",
+		"effect": { "type":"heal", "amount":35 },
+		"startingQty": 2
+	},
+	"ether": {
+		"id":"ether", "name":"Ether", "icon":"[E]",
+		"desc":"Restores 40 energy.",
+		"energyCost": 0, "target": "self",
+		"effect": { "type":"energy", "amount":40 },
+		"startingQty": 1
+	},
+	"bomb": {
+		"id":"bomb", "name":"Fire Bomb", "icon":"[B]",
+		"desc":"Deals 25 flat damage to one enemy.",
+		"energyCost": 10, "target": "enemy",
+		"effect": { "type":"damage", "amount":25 },
+		"startingQty": 1
+	}
+}

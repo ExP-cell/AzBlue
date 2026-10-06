@@ -1,0 +1,19 @@
+{
+	"strDmgPerPoint": 0.8,
+	"intDmgPerPoint": 0.9,
+	"dexDmgPerPoint": 0.7,
+
+	"strBlockPerPoint": 0.5,
+	"maxBlockPercent": 0.75,
+
+	"baseDodge": 0.02,
+	"dexDodgePerPoint": 0.01,
+	"maxDodge": 0.60,
+
+	"spdRollBonus": 1.0,
+
+	"baseEnergyRegen": 8,
+	"intEnergyPerPoint": 0.5,
+
+	"hpPerPoint": 5
+}

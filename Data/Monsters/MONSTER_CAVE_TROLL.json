@@ -1,0 +1,26 @@
+{
+	"name":   "Cave Troll",
+	"type":   "Tier 1 Enemy",
+	"level":  1,
+	"avatar": "T1",
+
+	"stats": {
+		"atk": 12,
+		"spd": 2,
+		"hp":  90
+	},
+
+	
+	
+	"skills": [
+		{ "id": "slam", "name": "Ground Slam", "chance": 0.20, "effect": "damage_boost", "multiplier": 1.5 }
+	],
+
+	"exp_give": 28,
+
+	"drops": [
+		{ "item": "Troll Hide",    "chance": 0.55, "qty": [1, 2] },
+		{ "item": "Stone Shard",   "chance": 0.40, "qty": [1, 3] },
+		{ "item": "Cave Crystal",  "chance": 0.15, "qty": [1, 1] }
+	]
+}

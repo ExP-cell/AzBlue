@@ -1,0 +1,24 @@
+﻿{
+    "name":   "Seg Dragon",
+    "type":   "Tier 3 Enemy",
+    "level":  3,
+    "avatar": "DR",
+
+    "stats": {
+        "atk": 16,
+        "spd": 8,
+        "hp":  145
+    },
+
+    "skills": [
+        { "id": "fire_breath", "name": "Fire Breath", "chance": 0.25, "effect": "damage_boost", "multiplier": 2.0 }
+    ],
+
+    "exp_give": 55,
+
+    "drops": [
+        { "item": "Dragon Scale",  "chance": 0.65, "qty": [1, 3] },
+        { "item": "Dragon Bone",   "chance": 0.40, "qty": [1, 2] },
+        { "item": "Dragon Core",   "chance": 0.15, "qty": [1, 1] }
+    ]
+}

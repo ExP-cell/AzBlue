@@ -1,0 +1,13 @@
+{
+	"restActionEnergy": 30,     
+	"energyOnReady":    30,     
+	"energyRefill":     true,  
+	"hpRegenPercent":   0.15,  
+	"statPreview": {
+		"str": "+block | +STR dmg",
+		"int": "+energy regen | +INT dmg",
+		"dex": "+dodge | +DEX dmg",
+		"spd": "+turn-order roll",
+		"hp":  "+max HP"
+	}
+}

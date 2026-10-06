@@ -1,0 +1,32 @@
+{
+	"mage": {
+		"label":"Mage", "avatar":"M",
+		"stats": { "str":4,  "int":12, "dex":4,  "spd":5,  "hp":14 },
+		"moves": [
+			{ "id":"fireball", "name":"Fireball", "icon":"*", "desc":"Standard INT nuke.",
+			  "scaling":"int", "power":1.0, "energyCost":0, "type":"attack" },
+			{ "id":"guard",    "name":"Guard",    "icon":"G", "desc":"Brace for the next hit.",
+			  "scaling":null,  "power":0,   "energyCost":0, "type":"guard" }
+		]
+	},
+	"sword": {
+		"label":"Swordsman", "avatar":"S",
+		"stats": { "str":12, "int":4,  "dex":4,  "spd":5,  "hp":20 },
+		"moves": [
+			{ "id":"slash", "name":"Slash", "icon":"/", "desc":"Reliable STR strike.",
+			  "scaling":"str", "power":1.0, "energyCost":0, "type":"attack" },
+			{ "id":"guard", "name":"Guard", "icon":"G", "desc":"Brace for the next hit.",
+			  "scaling":null,  "power":0,   "energyCost":0, "type":"guard" }
+		]
+	},
+	"assassin": {
+		"label":"Assassin", "avatar":"A",
+		"stats": { "str":6,  "int":4,  "dex":12, "spd":12, "hp":14 },
+		"moves": [
+			{ "id":"stab",  "name":"Stab",  "icon":"|", "desc":"Quick DEX hit.",
+			  "scaling":"dex", "power":1.0, "energyCost":0, "type":"attack" },
+			{ "id":"guard", "name":"Guard", "icon":"G", "desc":"Brace for the next hit.",
+			  "scaling":null,  "power":0,   "energyCost":0, "type":"guard" }
+		]
+	}
+}

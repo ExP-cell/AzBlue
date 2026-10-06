@@ -1,0 +1,24 @@
+﻿{
+    "name":   "Ptr Shade",
+    "type":   "Tier 3 Boss",
+    "level":  3,
+    "avatar": "SH",
+
+    "stats": {
+        "atk": 13,
+        "spd": 9,
+        "hp":  110
+    },
+
+    "skills": [
+        { "id": "null_strike", "name": "Null Strike", "chance": 0.30, "effect": "damage_boost", "multiplier": 1.6 }
+    ],
+
+    "exp_give": 60,
+
+    "drops": [
+        { "item": "Shadow Shard",  "chance": 0.70, "qty": [1, 2] },
+        { "item": "Null Pointer",  "chance": 0.45, "qty": [1, 1] },
+        { "item": "Boss Seal",     "chance": 0.20, "qty": [1, 1] }
+    ]
+}

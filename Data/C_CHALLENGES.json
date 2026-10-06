@@ -1,0 +1,12 @@
+[
+	{ "title":"Printing an Integer",      "hint":"Format specifier for signed integers? (%d)",              "codeBefore":"int score = 100;\nprintf(\"Score: %",          "answer":"d",      "codeAfter":"\\n\", score);" },
+	{ "title":"Reading Input with Scanf", "hint":"Address-of operator before the variable? (&)",             "codeBefore":"int age;\nprintf(\"Enter age: \");\nscanf(\"%d\", ", "answer":"&",     "codeAfter":"age);" },
+	{ "title":"Pointer Address",          "hint":"Operator to get memory address of a variable? (&)",        "codeBefore":"int val = 42;\nint *ptr = ",                    "answer":"&",      "codeAfter":"val;" },
+	{ "title":"Pointer Dereference",      "hint":"Symbol to dereference a pointer? (*)",                     "codeBefore":"int x = 10;\nint *p = &x;\nint val = ",         "answer":"*",      "codeAfter":"p;" },
+	{ "title":"Dynamic Memory",           "hint":"Standard function to allocate heap memory? (malloc)",      "codeBefore":"int *arr = (int *)",                            "answer":"malloc", "codeAfter":"(10 * sizeof(int));" },
+	{ "title":"Free Memory",              "hint":"Function to free allocated heap memory? (free)",           "codeBefore":"int *ptr = malloc(sizeof(int));\n",             "answer":"free",   "codeAfter":"(ptr);" },
+	{ "title":"For Loop",                 "hint":"Standard loop keyword? (for)",                             "codeBefore":"",                                              "answer":"for",    "codeAfter":"(int i=0; i<5; i++) {\n    printf(\"%d\\n\", i);\n}" },
+	{ "title":"String Length",            "hint":"Function returning string length in <string.h>? (strlen)", "codeBefore":"#include <string.h>\nchar s[] = \"Code\";\nint len = ", "answer":"strlen", "codeAfter":"(s);" },
+	{ "title":"Char Specifier",           "hint":"Format specifier for single characters? (%c)",             "codeBefore":"char grade = \"A\";\nprintf(\"Grade: %",          "answer":"c",      "codeAfter":"\\n\", grade);" },
+	{ "title":"String Specifier",         "hint":"Format specifier for null-terminated strings? (%s)",       "codeBefore":"char name[] = \"Coder\";\nprintf(\"Hi %",       "answer":"s",      "codeAfter":"\\n\", name);" }
+]

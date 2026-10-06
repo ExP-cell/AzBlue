@@ -1,0 +1,25 @@
+﻿{
+    "name":   "Recursion Demon",
+    "type":   "Final Boss",
+    "level":  5,
+    "avatar": "DM",
+
+    "stats": {
+        "atk": 22,
+        "spd": 14,
+        "hp":  280
+    },
+
+    "skills": [
+        { "id": "overflow",  "name": "Stack Overflow",  "chance": 0.35, "effect": "damage_boost", "multiplier": 1.8 },
+        { "id": "inf_loop",  "name": "Infinite Loop",   "chance": 0.20, "effect": "damage_boost", "multiplier": 2.5 }
+    ],
+
+    "exp_give": 200,
+
+    "drops": [
+        { "item": "Demon Core",             "chance": 1.00, "qty": [1, 1] },
+        { "item": "Infinite Loop Fragment", "chance": 0.80, "qty": [1, 2] },
+        { "item": "Ancient Debug Token",    "chance": 0.50, "qty": [1, 1] }
+    ]
+}
