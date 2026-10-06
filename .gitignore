@@ -1,0 +1,13 @@
+﻿# Godot 4+ specific ignores
+.godot/
+*.translation
+export_presets.cfg
+*.mono/
+.vs/
+.idea/
+*.scn
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini

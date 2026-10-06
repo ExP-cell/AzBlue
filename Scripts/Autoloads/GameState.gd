@@ -1,4 +1,4 @@
-﻿extends Node
+extends Node
 
 # This replaces your gs object from state.js
 var selected_class = ""
@@ -19,4 +19,4 @@ var materials = {}
 
 # We will load data here
 func _ready():
-    pass
+	pass

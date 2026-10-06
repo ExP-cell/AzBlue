@@ -1,0 +1,100 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Battle.gd" id="1"]
+
+[node name="Battle" type="Node2D"]
+script = ExtResource("1")
+
+[node name="BattleBG" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.07, 0.13, 0.22, 1)
+
+; ── Enemy sprite — top-right area, faces lower-right (SE)
+[node name="EnemySprite" type="Sprite2D" parent="."]
+position = Vector2(850, 200)
+scale = Vector2(4, 4)
+
+; ── Player sprite — bottom-left area, faces upper-left (NW)
+[node name="PlayerSprite" type="Sprite2D" parent="."]
+position = Vector2(280, 440)
+scale = Vector2(4, 4)
+
+; ── Enemy info box — top-left (Pokemon style)
+[node name="EnemyInfoBox" type="PanelContainer" parent="."]
+position = Vector2(30, 30)
+size = Vector2(280, 70)
+
+[node name="VBox" type="VBoxContainer" parent="EnemyInfoBox"]
+layout_mode = 2
+
+[node name="EnemyName" type="Label" parent="EnemyInfoBox/VBox"]
+text = "???"
+theme_override_font_sizes/font_size = 14
+
+[node name="EnemyHP" type="ProgressBar" parent="EnemyInfoBox/VBox"]
+custom_minimum_size = Vector2(260, 14)
+max_value = 100.0
+value = 100.0
+show_percentage = false
+
+; ── Player info box — bottom-right (Pokemon style)
+[node name="PlayerInfoBox" type="PanelContainer" parent="."]
+position = Vector2(680, 480)
+size = Vector2(300, 100)
+
+[node name="VBox" type="VBoxContainer" parent="PlayerInfoBox"]
+layout_mode = 2
+
+[node name="PlayerName" type="Label" parent="PlayerInfoBox/VBox"]
+text = "Hero"
+theme_override_font_sizes/font_size = 14
+
+[node name="PlayerHP" type="ProgressBar" parent="PlayerInfoBox/VBox"]
+custom_minimum_size = Vector2(280, 14)
+max_value = 100.0
+value = 100.0
+show_percentage = false
+
+[node name="PlayerEXP" type="ProgressBar" parent="PlayerInfoBox/VBox"]
+custom_minimum_size = Vector2(280, 8)
+max_value = 100.0
+value = 0.0
+show_percentage = false
+
+; ── Dialog box — bottom of screen
+[node name="DialogBox" type="PanelContainer" parent="."]
+position = Vector2(0, 580)
+size = Vector2(760, 140)
+
+[node name="DialogText" type="Label" parent="DialogBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 13
+text = "..."
+autowrap_mode = 3
+
+; ── Action menu — bottom-right
+[node name="ActionMenu" type="PanelContainer" parent="."]
+position = Vector2(760, 580)
+size = Vector2(280, 140)
+
+[node name="Grid" type="GridContainer" parent="ActionMenu"]
+layout_mode = 2
+columns = 2
+
+[node name="FightBtn" type="Button" parent="ActionMenu/Grid"]
+custom_minimum_size = Vector2(130, 60)
+text = "FIGHT"
+
+[node name="ItemsBtn" type="Button" parent="ActionMenu/Grid"]
+custom_minimum_size = Vector2(130, 60)
+text = "ITEMS"
+
+[node name="GuardBtn" type="Button" parent="ActionMenu/Grid"]
+custom_minimum_size = Vector2(130, 60)
+text = "GUARD"
+
+[node name="RunBtn" type="Button" parent="ActionMenu/Grid"]
+custom_minimum_size = Vector2(130, 60)
+text = "RUN"
