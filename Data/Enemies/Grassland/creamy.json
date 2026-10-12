@@ -1,0 +1,22 @@
+{
+    "name": "Creamy",
+    "type": "Grassland Enemy",
+    "level": 9,
+    "avatar": "G6",
+    "stats": {
+        "atk": 15,
+        "spd": 16,
+        "hp": 60
+    },
+    "skills": [
+        {
+            "id": "sleep_attack",
+            "name": "Sleep Attack",
+            "chance": 0.20,
+            "effect": "sleep",
+            "multiplier": 1.2
+        }
+    ],
+    "exp_give": 40,
+    "drops": []
+}

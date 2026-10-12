@@ -1,0 +1,14 @@
+{
+    "name": "Thief Bug",
+    "type": "Grassland Enemy",
+    "level": 5,
+    "avatar": "G4",
+    "stats": {
+        "atk": 18,
+        "spd": 6,
+        "hp": 60
+    },
+    "skills": [],
+    "exp_give": 28,
+    "drops": []
+}
