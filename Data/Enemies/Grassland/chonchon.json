@@ -1,0 +1,14 @@
+{
+    "name": "Chonchon",
+    "type": "Grassland Enemy",
+    "level": 6,
+    "avatar": "G5",
+    "stats": {
+        "atk": 12,
+        "spd": 10,
+        "hp": 45
+    },
+    "skills": [],
+    "exp_give": 30,
+    "drops": []
+}

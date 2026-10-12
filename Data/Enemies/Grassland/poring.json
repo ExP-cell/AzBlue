@@ -1,0 +1,14 @@
+{
+    "name": "Poring",
+    "type": "Grassland Enemy",
+    "level": 1,
+    "avatar": "G1",
+    "stats": {
+        "atk": 8,
+        "spd": 1,
+        "hp": 12
+    },
+    "skills": [],
+    "exp_give": 10,
+    "drops": []
+}

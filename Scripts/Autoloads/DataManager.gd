@@ -14,7 +14,10 @@ func load_all_data():
 	class_data = load_json("res://Data/CLASS_DATA.json")
 	item_data = load_json("res://Data/ITEM_DATA.json")
 	c_challenges = load_json("res://Data/C_CHALLENGES.json")
-	xp_rewards = load_json("res://Data/XP_REWARDS.json")
+	if FileAccess.file_exists("res://Data/XP_REWARDS.json"):
+		xp_rewards = load_json("res://Data/XP_REWARDS.json")
+	else:
+		xp_rewards = {}
 	stat_config = load_json("res://Data/STAT_CONFIG.json")
 	
 	# Load all monsters in the Monsters folder

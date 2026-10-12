@@ -1,0 +1,22 @@
+{
+    "name": "Mantis",
+    "type": "Forest enemy",
+    "level": 14,
+    "avatar": "F2",
+    "stats": {
+        "atk": 20,
+        "spd": 14,
+        "hp": 75
+    },
+    "skills": [
+        {
+            "id": "slash",
+            "name": "Slash",
+            "chance": 0.20,
+            "effect": "bleed",
+            "multiplier": 1.5
+        }
+    ],
+    "exp_give": 65,
+    "drops": []
+}
