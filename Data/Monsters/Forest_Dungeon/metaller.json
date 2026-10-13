@@ -1,0 +1,41 @@
+{
+    "name": "Metaller",
+    "type": "Forest Dungeon Enemy",
+    "level": 17,
+    "avatar": "FD2",
+    "stats": { "atk": 21, "spd": 15, "hp": 85 },
+    "def": 4,
+    "dodge": 0.03,
+    "block": 0.05,
+    "max_energy": 80,
+    "energy": 80,
+    "fire_dmg": 10,
+    "bleed_dmg": 5,
+    "effects": [],
+    "moves": [
+        {
+            "id": "metal_punch",
+            "name": "Metal Punch",
+            "icon": "*",
+            "desc": "A heavy metallic punch.",
+            "scaling": null,
+            "power": 1.0,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": null
+        },
+        {
+            "id": "fire_ball",
+            "name": "Fire Ball",
+            "icon": "*",
+            "desc": "Launches a blazing fireball that burns the target.",
+            "scaling": null,
+            "power": 1.3,
+            "energyCost": 20,
+            "type": "attack",
+            "effect": { "id": "burn", "stacks": 1, "duration": 3, "chance": 0.75 }
+        }
+    ],
+    "exp_give": 73,
+    "drops": []
+}

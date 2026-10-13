@@ -1,0 +1,41 @@
+{
+    "name": "Thief Bug",
+    "type": "Grassland Enemy",
+    "level": 5,
+    "avatar": "G4",
+    "stats": { "atk": 18, "spd": 6, "hp": 60 },
+    "def": 1,
+    "dodge": 0.05,
+    "block": 0.0,
+    "max_energy": 50,
+    "energy": 50,
+    "fire_dmg": 4,
+    "bleed_dmg": 4,
+    "effects": [],
+    "moves": [
+        {
+            "id": "scratch",
+            "name": "Scratch",
+            "icon": "*",
+            "desc": "A quick scratching attack.",
+            "scaling": null,
+            "power": 1.1,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": null
+        },
+        {
+            "id": "mug",
+            "name": "Mug",
+            "icon": "*",
+            "desc": "A dirty mugging strike that shakes the target.",
+            "scaling": null,
+            "power": 1.0,
+            "energyCost": 12,
+            "type": "attack",
+            "effect": { "id": "shaken", "stacks": 1, "duration": 1, "chance": 0.75 }
+        }
+    ],
+    "exp_give": 28,
+    "drops": []
+}

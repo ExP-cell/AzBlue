@@ -1,0 +1,170 @@
+[gd_scene format=3 uid="uid://c4mgfylcxxac3"]
+
+[ext_resource type="Script" uid="uid://drfdrput07lub" path="res://Scripts/CharacterSelect.gd" id="1_cs"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
+bg_color = Color(0.08, 0.08, 0.12, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[node name="CharacterSelect" type="Control" unique_id=348147487]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cs")
+
+[node name="Background" type="ColorRect" parent="." unique_id=231939640]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.06, 0.06, 0.1, 1)
+
+[node name="Title" type="Label" parent="." unique_id=2058498463]
+layout_mode = 1
+offset_top = 16.0
+offset_right = 1280.0
+offset_bottom = 54.0
+theme_override_font_sizes/font_size = 28
+text = "Choose Your Class"
+horizontal_alignment = 1
+
+[node name="HBox" type="HBoxContainer" parent="." unique_id=2052306195]
+layout_mode = 1
+offset_top = 62.0
+offset_right = 1154.0
+offset_bottom = 649.0
+theme_override_constants/separation = 12
+
+[node name="LeftPanel" type="PanelContainer" parent="HBox" unique_id=1612611865]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="VBox" type="VBoxContainer" parent="HBox/LeftPanel" unique_id=2071580526]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="CardTitle" type="Label" parent="HBox/LeftPanel/VBox" unique_id=1864370013]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "Classes"
+horizontal_alignment = 1
+
+[node name="ClassCards" type="HBoxContainer" parent="HBox/LeftPanel/VBox" unique_id=230221643]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="CenterPanel" type="PanelContainer" parent="HBox" unique_id=271799414]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.8
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="VBox" type="VBoxContainer" parent="HBox/CenterPanel" unique_id=1053603420]
+layout_mode = 2
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="ClassName" type="Label" parent="HBox/CenterPanel/VBox" unique_id=866557011]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.85, 0.2, 1)
+theme_override_font_sizes/font_size = 20
+text = "Swordsman"
+horizontal_alignment = 1
+
+[node name="PreviewSprite" type="Sprite2D" parent="HBox/CenterPanel/VBox" unique_id=103923914]
+position = Vector2(64, 96)
+
+[node name="ClassDesc" type="Label" parent="HBox/CenterPanel/VBox" unique_id=1574294]
+layout_mode = 2
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="RightPanel" type="PanelContainer" parent="HBox" unique_id=1273765775]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.9
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="VBox" type="VBoxContainer" parent="HBox/RightPanel" unique_id=492396147]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="GenderTitle" type="Label" parent="HBox/RightPanel/VBox" unique_id=1499658707]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "Gender"
+
+[node name="GenderRow" type="HBoxContainer" parent="HBox/RightPanel/VBox" unique_id=2103090872]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="MaleBtn" type="Button" parent="HBox/RightPanel/VBox/GenderRow" unique_id=1478495092]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 14
+text = "♂  Male"
+
+[node name="FemaleBtn" type="Button" parent="HBox/RightPanel/VBox/GenderRow" unique_id=1782503207]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 14
+text = "♀  Female"
+
+[node name="NameTitle" type="Label" parent="HBox/RightPanel/VBox" unique_id=786010577]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "Name"
+
+[node name="NameField" type="LineEdit" parent="HBox/RightPanel/VBox" unique_id=316543147]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+placeholder_text = "Enter your name..."
+
+[node name="DiffTitle" type="Label" parent="HBox/RightPanel/VBox" unique_id=1682210216]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "Difficulty"
+
+[node name="DiffRow" type="HBoxContainer" parent="HBox/RightPanel/VBox" unique_id=23971140]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="BabyBtn" type="Button" parent="HBox/RightPanel/VBox/DiffRow" unique_id=984079074]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Baby"
+
+[node name="NormalBtn" type="Button" parent="HBox/RightPanel/VBox/DiffRow" unique_id=1557705292]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Normal"
+
+[node name="HardcoreBtn" type="Button" parent="HBox/RightPanel/VBox/DiffRow" unique_id=1683403198]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Hardcore"
+
+[node name="DiffDesc" type="Label" parent="HBox/RightPanel/VBox" unique_id=171745593]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
+theme_override_font_sizes/font_size = 12
+text = "Normal — Balanced experience."
+autowrap_mode = 3
+
+[node name="Spacer" type="Control" parent="HBox/RightPanel/VBox" unique_id=605849401]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="ConfirmBtn" type="Button" parent="HBox/RightPanel/VBox" unique_id=1919704624]
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "▶  Begin Adventure"

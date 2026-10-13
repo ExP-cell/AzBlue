@@ -1,24 +1,48 @@
 extends Control
 
-# Base script for the Main menu / hub scene.
-# Coordinates the overarching gameplay loop into the Battle scene.
+# ==============================================================================
+# MAIN MENU
+# ==============================================================================
+# Buttons:
+#   New Game  → CharacterSelect.tscn
+#   Continue  → loads save, then Battle.tscn  (hidden if no save exists)
+#   Quit      → exit
+# ==============================================================================
 
-@onready var start_btn: Button = $StartBattleBtn
-@onready var status_lbl: Label = $Label
+@onready var new_game_btn : Button = $CenterBox/NewGameBtn
+@onready var continue_btn : Button = $CenterBox/ContinueBtn
+@onready var quit_btn     : Button = $CenterBox/QuitBtn
+@onready var title_label  : Label  = $CenterBox/TitleLabel
+
 
 func _ready() -> void:
-	if start_btn:
-		start_btn.pressed.connect(_on_start_battle_pressed)
+	if title_label:
+		title_label.text = "AzBlue"
 
-	if status_lbl:
-		status_lbl.text = "CodeQuest RPG\nClass: %s | LVL: %d | XP: %d/%d | HP: %d/%d" % [
-			GameState.selected_class.capitalize(),
-			GameState.level,
-			GameState.xp,
-			GameState.xp_to_next,
-			GameState.player_hp,
-			GameState.max_player_hp
-		]
+	# Show Continue only if a save exists
+	if continue_btn:
+		continue_btn.visible = SaveManager.has_save()
 
-func _on_start_battle_pressed() -> void:
-	get_tree().change_scene_to_file("res://Scenes/Battle.tscn")
+	if new_game_btn:
+		new_game_btn.pressed.connect(_on_new_game_pressed)
+	if continue_btn:
+		continue_btn.pressed.connect(_on_continue_pressed)
+	if quit_btn:
+		quit_btn.pressed.connect(_on_quit_pressed)
+
+
+func _on_new_game_pressed() -> void:
+	get_tree().change_scene_to_file("res://Scenes/CharacterSelect.tscn")
+
+
+func _on_continue_pressed() -> void:
+	if SaveManager.has_save():
+		SaveManager.load_save()
+		get_tree().change_scene_to_file("res://Scenes/Battle.tscn")
+	else:
+		# Fallback: no save found — go to character creation
+		get_tree().change_scene_to_file("res://Scenes/CharacterSelect.tscn")
+
+
+func _on_quit_pressed() -> void:
+	get_tree().quit()

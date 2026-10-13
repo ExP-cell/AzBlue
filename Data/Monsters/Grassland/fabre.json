@@ -1,0 +1,41 @@
+{
+    "name": "Fabre",
+    "type": "Grassland Enemy",
+    "level": 2,
+    "avatar": "G2",
+    "stats": { "atk": 7, "spd": 2, "hp": 24 },
+    "def": 0,
+    "dodge": 0.02,
+    "block": 0.0,
+    "max_energy": 40,
+    "energy": 40,
+    "fire_dmg": 3,
+    "bleed_dmg": 2,
+    "effects": [],
+    "moves": [
+        {
+            "id": "nibble",
+            "name": "Nibble",
+            "icon": "*",
+            "desc": "A quick nibble attack.",
+            "scaling": null,
+            "power": 1.0,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": null
+        },
+        {
+            "id": "silk_wrap",
+            "name": "Silk Wrap",
+            "icon": "*",
+            "desc": "Wraps the enemy in silk, stunning them.",
+            "scaling": null,
+            "power": 0.0,
+            "energyCost": 10,
+            "type": "debuff",
+            "effect": { "id": "stunned", "stacks": 1, "duration": 1, "chance": 0.70 }
+        }
+    ],
+    "exp_give": 12,
+    "drops": []
+}

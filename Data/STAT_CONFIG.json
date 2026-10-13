@@ -1,19 +1,24 @@
 {
-	"strDmgPerPoint": 0.8,
-	"intDmgPerPoint": 0.9,
-	"dexDmgPerPoint": 0.7,
+	"strDmgPerPoint":    0.8,
+	"intDmgPerPoint":    0.9,
+	"dexDmgPerPoint":    0.7,
+	"faithDmgPerPoint":  0.9,
+	"faithHealPerPoint": 1.2,
 
-	"strBlockPerPoint": 0.5,
-	"maxBlockPercent": 0.75,
+	"strBlockPerPoint":  0.5,
+	"maxBlockPercent":   0.75,
 
-	"baseDodge": 0.02,
-	"dexDodgePerPoint": 0.01,
-	"maxDodge": 0.60,
+	"baseDodge":         0.02,
+	"dexDodgePerPoint":  0.01,
+	"maxDodge":          0.60,
 
-	"spdRollBonus": 1.0,
+	"spdRollBonus":      1.0,
 
-	"baseEnergyRegen": 8,
-	"intEnergyPerPoint": 0.5,
+	"maxEnergyBase":     80,
+	"intEnergyPerPoint": 2.0,
 
-	"hpPerPoint": 5
+	"battleEnergyRegen": 10,
+	"restEnergyRefill":  40,
+
+	"hpPerPoint":        5
 }
