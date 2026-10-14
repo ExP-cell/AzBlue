@@ -13,6 +13,7 @@ config_version=5
 
 [application]
 
+config/name="AzBlue"
 run/main_scene="res://Scenes/Main.tscn"
 config/features=PackedStringArray("4.7")
 
@@ -20,6 +21,8 @@ config/features=PackedStringArray("4.7")
 
 DataManager="*res://Scripts/Autoloads/DataManager.gd"
 GameState="*res://Scripts/Autoloads/GameState.gd"
+StatusEffects="*res://Scripts/Autoloads/StatusEffects.gd"
+SaveManager="*res://Scripts/Autoloads/SaveManager.gd"
 
 [config]
 

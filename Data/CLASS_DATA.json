@@ -1,32 +1,64 @@
 {
 	"mage": {
-		"label":"Mage", "avatar":"M",
-		"stats": { "str":4,  "int":12, "dex":4,  "spd":5,  "hp":14 },
+		"label": "Mage", "avatar": "M",
+		"stats": { "str": 4, "int": 12, "dex": 4, "spd": 5, "hp": 14 },
 		"moves": [
-			{ "id":"fireball", "name":"Fireball", "icon":"*", "desc":"Standard INT nuke.",
-			  "scaling":"int", "power":1.0, "energyCost":0, "type":"attack" },
-			{ "id":"guard",    "name":"Guard",    "icon":"G", "desc":"Brace for the next hit.",
-			  "scaling":null,  "power":0,   "energyCost":0, "type":"guard" }
+			{ "id": "fireball",  "name": "Fireball", "icon": "*", "desc": "Standard INT nuke.",
+			  "scaling": "int", "power": 1.0, "energyCost": 0, "type": "attack", "effect": null },
+			{ "id": "guard",     "name": "Guard",    "icon": "G", "desc": "Brace for the next hit.",
+			  "scaling": null,  "power": 0,   "energyCost": 0, "type": "guard",  "effect": null }
 		]
 	},
 	"sword": {
-		"label":"Swordsman", "avatar":"S",
-		"stats": { "str":12, "int":4,  "dex":4,  "spd":5,  "hp":20 },
+		"label": "Swordsman", "avatar": "S",
+		"stats": { "str": 12, "int": 4, "dex": 4, "spd": 5, "hp": 20 },
 		"moves": [
-			{ "id":"slash", "name":"Slash", "icon":"/", "desc":"Reliable STR strike.",
-			  "scaling":"str", "power":1.0, "energyCost":0, "type":"attack" },
-			{ "id":"guard", "name":"Guard", "icon":"G", "desc":"Brace for the next hit.",
-			  "scaling":null,  "power":0,   "energyCost":0, "type":"guard" }
+			{ "id": "slash", "name": "Slash", "icon": "/", "desc": "Reliable STR strike.",
+			  "scaling": "str", "power": 1.0, "energyCost": 0, "type": "attack", "effect": null },
+			{ "id": "guard", "name": "Guard", "icon": "G", "desc": "Brace for the next hit.",
+			  "scaling": null,  "power": 0,   "energyCost": 0, "type": "guard",  "effect": null }
 		]
 	},
 	"assassin": {
-		"label":"Assassin", "avatar":"A",
-		"stats": { "str":6,  "int":4,  "dex":12, "spd":12, "hp":14 },
+		"label": "Assassin", "avatar": "A",
+		"stats": { "str": 6, "int": 4, "dex": 12, "spd": 12, "hp": 14 },
 		"moves": [
-			{ "id":"stab",  "name":"Stab",  "icon":"|", "desc":"Quick DEX hit.",
-			  "scaling":"dex", "power":1.0, "energyCost":0, "type":"attack" },
-			{ "id":"guard", "name":"Guard", "icon":"G", "desc":"Brace for the next hit.",
-			  "scaling":null,  "power":0,   "energyCost":0, "type":"guard" }
+			{ "id": "stab",  "name": "Stab",  "icon": "|", "desc": "Quick DEX hit.",
+			  "scaling": "dex", "power": 1.0, "energyCost": 0, "type": "attack", "effect": null },
+			{ "id": "guard", "name": "Guard", "icon": "G", "desc": "Brace for the next hit.",
+			  "scaling": null,  "power": 0,   "energyCost": 0, "type": "guard",  "effect": null }
+		]
+	},
+	"ranger": {
+		"label": "Ranger", "avatar": "Ra",
+		"stats": { "str": 6, "int": 5, "dex": 14, "spd": 12, "hp": 16 },
+		"moves": [
+			{ "id": "quick_shot",   "name": "Quick Shot",   "icon": "→", "desc": "Swift DEX arrow. No frills.",
+			  "scaling": "dex", "power": 1.0, "energyCost": 0,  "type": "attack", "effect": null },
+			{ "id": "poison_arrow", "name": "Poison Arrow", "icon": "☠", "desc": "Venomous shot. 85% chance to Poison target.",
+			  "scaling": "dex", "power": 0.85, "energyCost": 15, "type": "attack",
+			  "effect": { "id": "poison", "stacks": 1, "duration": 3, "chance": 0.85 } },
+			{ "id": "crippling_shot","name": "Crippling Shot","icon": "⇓","desc": "Pierces tendons. 90% chance to Cripple target.",
+			  "scaling": "dex", "power": 0.75, "energyCost": 12, "type": "attack",
+			  "effect": { "id": "crippled", "stacks": 1, "duration": 2, "chance": 0.90 } },
+			{ "id": "guard", "name": "Guard", "icon": "G", "desc": "Brace for the next hit.",
+			  "scaling": null, "power": 0, "energyCost": 0, "type": "guard", "effect": null }
+		]
+	},
+	"priest": {
+		"label": "Priest", "avatar": "Pr",
+		"stats": { "str": 5, "int": 10, "dex": 4, "spd": 6, "hp": 14, "faith": 12 },
+		"moves": [
+			{ "id": "holy_bolt",  "name": "Holy Bolt",  "icon": "✦", "desc": "Holy energy strike. 70% chance to Vulnerable.",
+			  "scaling": "faith", "power": 1.0, "energyCost": 0,  "type": "attack",
+			  "effect": { "id": "vulnerable", "stacks": 1, "duration": 2, "chance": 0.70 } },
+			{ "id": "heal",       "name": "Heal",       "icon": "+", "desc": "Restore HP through holy power. (Faith scaling)",
+			  "scaling": "faith", "power": 1.2, "energyCost": 20, "type": "heal", "effect": null },
+			{ "id": "holy_light", "name": "Holy Light", "icon": "☀", "desc": "Bathe ally in light. Applies Regen. (Placeholder)",
+			  "scaling": "faith", "power": 0,   "energyCost": 25, "type": "buff",
+			  "effect": { "id": "regen", "stacks": 1, "duration": 3, "chance": 1.0, "target": "self" } },
+			{ "id": "guard", "name": "Guard", "icon": "G", "desc": "Brace for the next hit.",
+			  "scaling": null, "power": 0, "energyCost": 0, "type": "guard", "effect": null }
 		]
 	}
 }

@@ -1,0 +1,41 @@
+{
+    "name": "Chonchon",
+    "type": "Grassland Enemy",
+    "level": 6,
+    "avatar": "G5",
+    "stats": { "atk": 12, "spd": 10, "hp": 45 },
+    "def": 1,
+    "dodge": 0.05,
+    "block": 0.0,
+    "max_energy": 50,
+    "energy": 50,
+    "fire_dmg": 4,
+    "bleed_dmg": 4,
+    "effects": [],
+    "moves": [
+        {
+            "id": "claw",
+            "name": "Claw",
+            "icon": "*",
+            "desc": "A basic claw attack.",
+            "scaling": null,
+            "power": 1.0,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": null
+        },
+        {
+            "id": "wind_slash",
+            "name": "Wind Slash",
+            "icon": "*",
+            "desc": "A slashing wind attack that shakes the target.",
+            "scaling": null,
+            "power": 1.2,
+            "energyCost": 10,
+            "type": "attack",
+            "effect": { "id": "shaken", "stacks": 1, "duration": 2, "chance": 0.60 }
+        }
+    ],
+    "exp_give": 30,
+    "drops": []
+}

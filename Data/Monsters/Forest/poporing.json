@@ -1,0 +1,41 @@
+{
+    "name": "Poporing",
+    "type": "Forest Enemy",
+    "level": 11,
+    "avatar": "F2",
+    "stats": { "atk": 16, "spd": 11, "hp": 67 },
+    "def": 2,
+    "dodge": 0.03,
+    "block": 0.0,
+    "max_energy": 60,
+    "energy": 60,
+    "fire_dmg": 5,
+    "bleed_dmg": 4,
+    "effects": [],
+    "moves": [
+        {
+            "id": "slime_touch",
+            "name": "Slime Touch",
+            "icon": "*",
+            "desc": "A basic slimy touch attack.",
+            "scaling": null,
+            "power": 1.0,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": null
+        },
+        {
+            "id": "poison_spit",
+            "name": "Poison Spit",
+            "icon": "*",
+            "desc": "Spits a toxic glob that poisons the target.",
+            "scaling": null,
+            "power": 1.3,
+            "energyCost": 15,
+            "type": "attack",
+            "effect": { "id": "poison", "stacks": 1, "duration": 3, "chance": 0.80 }
+        }
+    ],
+    "exp_give": 55,
+    "drops": []
+}

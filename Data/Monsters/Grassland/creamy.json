@@ -1,0 +1,41 @@
+{
+    "name": "Creamy",
+    "type": "Grassland Enemy",
+    "level": 9,
+    "avatar": "G6",
+    "stats": { "atk": 15, "spd": 16, "hp": 60 },
+    "def": 1,
+    "dodge": 0.08,
+    "block": 0.0,
+    "max_energy": 60,
+    "energy": 60,
+    "fire_dmg": 4,
+    "bleed_dmg": 4,
+    "effects": [],
+    "moves": [
+        {
+            "id": "scratch",
+            "name": "Scratch",
+            "icon": "*",
+            "desc": "A quick scratching attack.",
+            "scaling": null,
+            "power": 1.0,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": null
+        },
+        {
+            "id": "sleep_dust",
+            "name": "Sleep Dust",
+            "icon": "*",
+            "desc": "Releases a dusty powder that puts the target to sleep.",
+            "scaling": null,
+            "power": 0.8,
+            "energyCost": 15,
+            "type": "attack",
+            "effect": { "id": "sleep", "stacks": 1, "duration": 2, "chance": 0.70 }
+        }
+    ],
+    "exp_give": 40,
+    "drops": []
+}

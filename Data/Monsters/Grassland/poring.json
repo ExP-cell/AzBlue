@@ -1,0 +1,30 @@
+{
+    "name": "Poring",
+    "type": "Grassland Enemy",
+    "level": 1,
+    "avatar": "G1",
+    "stats": { "atk": 8, "spd": 1, "hp": 12 },
+    "def": 0,
+    "dodge": 0.0,
+    "block": 0.0,
+    "max_energy": 30,
+    "energy": 30,
+    "fire_dmg": 3,
+    "bleed_dmg": 2,
+    "effects": [],
+    "moves": [
+        {
+            "id": "smash",
+            "name": "Smash",
+            "icon": "*",
+            "desc": "Basic slime attack.",
+            "scaling": null,
+            "power": 1.0,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": null
+        }
+    ],
+    "exp_give": 10,
+    "drops": []
+}

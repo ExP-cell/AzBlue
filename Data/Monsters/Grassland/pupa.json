@@ -1,0 +1,41 @@
+{
+    "name": "Pupa",
+    "type": "Grassland Enemy",
+    "level": 3,
+    "avatar": "G3",
+    "stats": { "atk": 9, "spd": 3, "hp": 30 },
+    "def": 2,
+    "dodge": 0.0,
+    "block": 0.05,
+    "max_energy": 40,
+    "energy": 40,
+    "fire_dmg": 3,
+    "bleed_dmg": 3,
+    "effects": [],
+    "moves": [
+        {
+            "id": "bite",
+            "name": "Bite",
+            "icon": "*",
+            "desc": "A basic biting attack.",
+            "scaling": null,
+            "power": 1.0,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": null
+        },
+        {
+            "id": "harden",
+            "name": "Harden",
+            "icon": "*",
+            "desc": "Hardens its shell, regenerating health.",
+            "scaling": null,
+            "power": 0.0,
+            "energyCost": 15,
+            "type": "buff",
+            "effect": { "id": "regen", "stacks": 1, "duration": 2, "chance": 1.0, "target": "self" }
+        }
+    ],
+    "exp_give": 15,
+    "drops": []
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Boa",
+    "type": "Forest Enemy",
+    "level": 12,
+    "avatar": "F3",
+    "stats": { "atk": 18, "spd": 13, "hp": 65 },
+    "def": 3,
+    "dodge": 0.04,
+    "block": 0.05,
+    "max_energy": 70,
+    "energy": 70,
+    "fire_dmg": 5,
+    "bleed_dmg": 6,
+    "effects": [],
+    "moves": [
+        {
+            "id": "constrict",
+            "name": "Constrict",
+            "icon": "*",
+            "desc": "Coils around the target, leaving them vulnerable.",
+            "scaling": null,
+            "power": 1.0,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": { "id": "vulnerable", "stacks": 1, "duration": 1, "chance": 0.50 }
+        },
+        {
+            "id": "venom_bite",
+            "name": "Venom Bite",
+            "icon": "*",
+            "desc": "A venomous bite that poisons the target.",
+            "scaling": null,
+            "power": 1.4,
+            "energyCost": 18,
+            "type": "attack",
+            "effect": { "id": "poison", "stacks": 1, "duration": 3, "chance": 0.75 }
+        }
+    ],
+    "exp_give": 60,
+    "drops": []
+}

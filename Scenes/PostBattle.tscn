@@ -1,0 +1,130 @@
+[gd_scene load_steps=3 format=3 uid="uid://post_battle"]
+
+[ext_resource type="Script" path="res://Scripts/PostBattle.gd" id="1_pb"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_panel"]
+bg_color = Color(0.08, 0.08, 0.12, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+
+[node name="PostBattle" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1_pb")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.06, 0.06, 0.10, 1)
+
+[node name="HBox" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 12.0
+offset_top = 12.0
+offset_right = -12.0
+offset_bottom = -12.0
+theme_override_constants/separation = 12
+
+[node name="LeftPanel" type="PanelContainer" parent="HBox"]
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.9
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="VBox" type="VBoxContainer" parent="HBox/LeftPanel"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="LeftTitle" type="Label" parent="HBox/LeftPanel/VBox"]
+text = "Inventory / Crafting"
+theme_override_font_sizes/font_size = 16
+
+[node name="Placeholder" type="Label" parent="HBox/LeftPanel/VBox"]
+text = "(Coming soon)"
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+
+[node name="CenterPanel" type="PanelContainer" parent="HBox"]
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 1.2
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="VBox" type="VBoxContainer" parent="HBox/CenterPanel"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="XPLabel" type="Label" parent="HBox/CenterPanel/VBox"]
+text = "XP: 0 / 100  (Level 1)"
+theme_override_font_sizes/font_size = 15
+
+[node name="LevelLabel" type="Label" parent="HBox/CenterPanel/VBox"]
+text = ""
+theme_override_colors/font_color = Color(1, 0.85, 0.2, 1)
+theme_override_font_sizes/font_size = 15
+
+[node name="MovesBox" type="VBoxContainer" parent="HBox/CenterPanel/VBox"]
+size_flags_vertical = 3
+theme_override_constants/separation = 4
+
+[node name="Divider" type="HSeparator" parent="HBox/CenterPanel/VBox"]
+
+[node name="StatAllocBox" type="VBoxContainer" parent="HBox/CenterPanel/VBox"]
+theme_override_constants/separation = 6
+
+[node name="InvestBtn" type="Button" parent="HBox/CenterPanel/VBox"]
+text = "Invest Points (0)"
+disabled = true
+
+[node name="Divider2" type="HSeparator" parent="HBox/CenterPanel/VBox"]
+
+[node name="ContinueBtn" type="Button" parent="HBox/CenterPanel/VBox"]
+text = "Continue →"
+theme_override_font_sizes/font_size = 16
+
+[node name="RightPanel" type="PanelContainer" parent="HBox"]
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.9
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="VBox" type="VBoxContainer" parent="HBox/RightPanel"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="EquipTitle" type="Label" parent="HBox/RightPanel/VBox"]
+text = "Equipment"
+theme_override_font_sizes/font_size = 16
+
+[node name="EquipSlots" type="GridContainer" parent="HBox/RightPanel/VBox"]
+columns = 2
+theme_override_constants/h_separation = 6
+
+[node name="SlotHelmet" type="Label" parent="HBox/RightPanel/VBox/EquipSlots"]
+text = "Helmet:   —"
+
+[node name="SlotChest" type="Label" parent="HBox/RightPanel/VBox/EquipSlots"]
+text = "Chest:    —"
+
+[node name="SlotLegs" type="Label" parent="HBox/RightPanel/VBox/EquipSlots"]
+text = "Leggings: —"
+
+[node name="SlotBoots" type="Label" parent="HBox/RightPanel/VBox/EquipSlots"]
+text = "Boots:    —"
+
+[node name="SlotWeapon" type="Label" parent="HBox/RightPanel/VBox/EquipSlots"]
+text = "Weapon:   —"
+
+[node name="SlotCharm" type="Label" parent="HBox/RightPanel/VBox/EquipSlots"]
+text = "Charm:    —"
+
+[node name="Divider3" type="HSeparator" parent="HBox/RightPanel/VBox"]
+
+[node name="StatSheet" type="Label" parent="HBox/RightPanel/VBox"]
+text = "── Stats ──"
+theme_override_font_sizes/font_size = 13

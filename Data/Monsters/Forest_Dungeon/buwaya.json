@@ -1,0 +1,41 @@
+{
+    "name": "Buwaya",
+    "type": "Forest Dungeon Enemy",
+    "level": 16,
+    "avatar": "FD1",
+    "stats": { "atk": 21, "spd": 14, "hp": 75 },
+    "def": 4,
+    "dodge": 0.04,
+    "block": 0.08,
+    "max_energy": 80,
+    "energy": 80,
+    "fire_dmg": 6,
+    "bleed_dmg": 6,
+    "effects": [],
+    "moves": [
+        {
+            "id": "bite",
+            "name": "Bite",
+            "icon": "*",
+            "desc": "A powerful biting attack.",
+            "scaling": null,
+            "power": 1.1,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": null
+        },
+        {
+            "id": "break_armor",
+            "name": "Break Armor",
+            "icon": "*",
+            "desc": "A strike that cripples the target's armor.",
+            "scaling": null,
+            "power": 1.2,
+            "energyCost": 15,
+            "type": "attack",
+            "effect": { "id": "crippled", "stacks": 1, "duration": 2, "chance": 0.80 }
+        }
+    ],
+    "exp_give": 65,
+    "drops": []
+}

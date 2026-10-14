@@ -1,0 +1,41 @@
+{
+    "name": "Mantis",
+    "type": "Forest Enemy",
+    "level": 14,
+    "avatar": "F4",
+    "stats": { "atk": 20, "spd": 14, "hp": 75 },
+    "def": 3,
+    "dodge": 0.06,
+    "block": 0.0,
+    "max_energy": 70,
+    "energy": 70,
+    "fire_dmg": 5,
+    "bleed_dmg": 8,
+    "effects": [],
+    "moves": [
+        {
+            "id": "claw_swipe",
+            "name": "Claw Swipe",
+            "icon": "*",
+            "desc": "A swift claw swipe attack.",
+            "scaling": null,
+            "power": 1.0,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": null
+        },
+        {
+            "id": "blade_slash",
+            "name": "Blade Slash",
+            "icon": "*",
+            "desc": "A razor-sharp slash that causes bleeding.",
+            "scaling": null,
+            "power": 1.5,
+            "energyCost": 18,
+            "type": "attack",
+            "effect": { "id": "bleed", "stacks": 1, "duration": 3, "chance": 0.80 }
+        }
+    ],
+    "exp_give": 65,
+    "drops": []
+}

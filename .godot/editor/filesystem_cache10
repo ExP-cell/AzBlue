@@ -1,40 +1,93 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1791788913
-::res://Assets/::1791464173
-::res://Assets/Player/::1791443430
-::res://Assets/Player/Body/::1791443430
-::res://Assets/Player/Body/Female/::1791464287
-PC _ Computer - Ragnarok Online - Classes (Female) - Mage.png::CompressedTexture2D::7536390007394624539::1791443430::1791464287::1::::<><><>0<>0<>f321baaedab6b84ba3f570e50f633908<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Female) - Mage.png-8fcfb2357dfe7c10ee10dde596625d8b.ctex::
-PC _ Computer - Ragnarok Online - Classes (Female) - Swordsman.png::CompressedTexture2D::5134234635561639015::1791443430::1791464287::1::::<><><>0<>0<>b0870f8d46f7dd4144dfb97db70124a4<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Female) - Swordsman.png-b2cee021ceecc0b18cfc3b83a39ba783.ctex::
-PC _ Computer - Ragnarok Online - Classes (Female) - Thief.png::CompressedTexture2D::2496355402286544773::1791443430::1791464287::1::::<><><>0<>0<>0ee367e8916d5705a3aa5e944c92b0c0<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Female) - Thief.png-07174d87f2320846fcff56e3aa3f94ff.ctex::
-::res://Assets/Player/Body/Male/::1791464287
-PC _ Computer - Ragnarok Online - Classes (Male) - Mage.png::CompressedTexture2D::2762333838074728049::1791443430::1791464287::1::::<><><>0<>0<>d4e4cc1731a2e70cba128dd2106781f3<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Male) - Mage.png-51e06402d5ea43131b716a605c0c61db.ctex::
-PC _ Computer - Ragnarok Online - Classes (Male) - Swordsman.png::CompressedTexture2D::1355446577837559981::1791443430::1791464287::1::::<><><>0<>0<>10cdaac55aaa547e772d4509818b59b8<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Male) - Swordsman.png-308a36991718fc87e94eef2de25eff8e.ctex::
-PC _ Computer - Ragnarok Online - Classes (Male) - Thief.png::CompressedTexture2D::7026719255920534001::1791443430::1791464287::1::::<><><>0<>0<>07a2703a3f43f751c5034e37c7997caa<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Male) - Thief.png-04d60a7587bfc7b4a0cc8cdb908d8fcd.ctex::
-::res://Assets/Player/Head/::1791443430
-::res://Assets/Player/Head/Female/::1791464288
-PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Black.png::CompressedTexture2D::4667359031253906823::1791443430::1791464288::1::::<><><>0<>0<>935f435321212593354821097482e195<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Black.png-3b880187d1d61fdc8d64533ee064d577.ctex::
-PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Brown.png::CompressedTexture2D::5693925348691589961::1791443430::1791464287::1::::<><><>0<>0<>43586e6f64b8f87a7c33ebb2104f85ba<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Brown.png-fa4450ba5feaf1217e8976b2845ba3a1.ctex::
-PC _ Computer - Ragnarok Online - Heads (Female _ Original) - White.png::CompressedTexture2D::4978707502632987281::1791443430::1791464288::1::::<><><>0<>0<>df71d8b62e0c37e8bce1319cd2dc0db0<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Female _ Original) - White.png-2db7aeb2d3eae38963f5365dea0dde78.ctex::
-PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Yellow.png::CompressedTexture2D::4198394561371671509::1791443430::1791464288::1::::<><><>0<>0<>65e89dea841e6c8388572753cb2c0e47<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Yellow.png-3cd00fb01b1997d1460a46df74dfd572.ctex::
-::res://Assets/Player/Head/Male/::1791464288
-PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Black.png::CompressedTexture2D::4109882447121269574::1791443430::1791464287::1::::<><><>0<>0<>1296e0af6f2452c066199c3e9ac01536<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Black.png-9e5e81f11a7dbb0fbb17bd7ddd2dff25.ctex::
-PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Brown.png::CompressedTexture2D::8331651052449282483::1791443430::1791464287::1::::<><><>0<>0<>ebf750f3240ce7a561a388ba6967ee3a<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Brown.png-476e46f569573ef37310362832573c7a.ctex::
-PC _ Computer - Ragnarok Online - Heads (Male _ Original) - White.png::CompressedTexture2D::2893273030390041506::1791443430::1791464288::1::::<><><>0<>0<>fd63faaa3a5e8e8fd39c1358c3baeec1<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Male _ Original) - White.png-f8f3170bb17443021628eb29c662511e.ctex::
-PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Yellow.png::CompressedTexture2D::7774861027880259951::1791443430::1791464288::1::::<><><>0<>0<>12c0bd020ff8bfc43f92423ad87333c2<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Yellow.png-8b250d01775ef5b335d65e281af1fa8b.ctex::
-::res://Data/::1791464173
-CLASS_DATA.json::JSON::-1::1791443430::0::1::::<><><>0<>0<><>::
-C_CHALLENGES.json::JSON::-1::1791443430::0::1::::<><><>0<>0<><>::
-ITEM_DATA.json::JSON::-1::1791443430::0::1::::<><><>0<>0<><>::
-LEVEL_CONFIG.json::JSON::-1::1791443430::0::1::::<><><>0<>0<><>::
-REST_CONFIG.json::JSON::-1::1791443430::0::1::::<><><>0<>0<><>::
-STAT_CONFIG.json::JSON::-1::1791443430::0::1::::<><><>0<>0<><>::
-::res://Scenes/::1791786585
-Battle.tscn::PackedScene::7804358483814471671::1791786585::0::1::::<><><>0<>0<><>::uid://cwtyc5swuc5xk::::res://Scripts/Battle.gd
-Main.tscn::PackedScene::4846665478899374894::1791785727::0::1::::<><><>0<>0<><>::res://Scripts/Main.gd
-::res://Scripts/::1791785838
-Battle.gd::GDScript::6357681488697659168::1791785711::0::1::::<>Node2D<><>0<>0<><>::
-Main.gd::GDScript::2054492458562001647::1791785719::0::1::::<>Control<><>0<>0<><>::
-::res://Scripts/Autoloads/::1791782345
-DataManager.gd::GDScript::8028676893747070399::1791785674::0::1::::<>Node<><>0<>0<><>::
-GameState.gd::GDScript::4872622398686904875::1791785682::0::1::::<>Node<><>0<>0<><>::
+::res://::1791874530
+::res://Assets/::1791871998
+::res://Assets/BattleBackgrounds/::1791310273
+::res://Assets/BattleBackgrounds/Forest/::1791310273
+::res://Assets/BattleBackgrounds/Forest_Dungeon/::1791310273
+::res://Assets/BattleBackgrounds/Grasslands/::1791310273
+::res://Assets/Effects/::1791280228
+::res://Assets/Miscellaneous/::1791280228
+::res://Assets/Sprites/::1791872281
+::res://Assets/Sprites/Monsters/::1791872280
+::res://Assets/Sprites/Monsters/Forest/::1791872363
+Boa.png::CompressedTexture2D::741645187209085030::1791797286::1791872363::1::::<><><>0<>0<>e95bcf568d945dde20586afb1d1be937<>res://.godot/imported/Boa.png-2e32d69141aa91ae7b917f58f2bd9962.ctex::
+Mantis.png::CompressedTexture2D::8164178581669516636::1791797286::1791872363::1::::<><><>0<>0<>7f4e146d2f0eaccfb47721450648be34<>res://.godot/imported/Mantis.png-031caa74118677a62203d1e1c338c078.ctex::
+Poporing.png::CompressedTexture2D::1942064493683990285::1791797286::1791872363::1::::<><><>0<>0<>c7f5f7a503d75c1a6fb9c5e0b7aae4bb<>res://.godot/imported/Poporing.png-db633a6d88a2970bc415d8707d898155.ctex::
+Yoyo.png::CompressedTexture2D::6305073145988882133::1791797286::1791872363::1::::<><><>0<>0<>ad66304af97ee6ad2ac8bd6bcab9cb99<>res://.godot/imported/Yoyo.png-cfe48cfe37ca404a7489593aa2ace3f9.ctex::
+::res://Assets/Sprites/Monsters/Forest_Dungeon/::1791872364
+Buwaya.png::CompressedTexture2D::1687527811127019367::1791797286::1791872363::1::::<><><>0<>0<>bcd2f60641f6c623fbed0c87fe7b9d9f<>res://.godot/imported/Buwaya.png-8e33862b5022ae8cf5bbf55e7a1871bc.ctex::
+Dungeon_Mantis.png::CompressedTexture2D::6603934368943738047::1791797286::1791872363::1::::<><><>0<>0<>3a32f9b75a22422ce204231aa4585487<>res://.godot/imported/Dungeon_Mantis.png-5dd8dd85130eb043d751f6f4d577d459.ctex::
+King_Poring.png::CompressedTexture2D::4866707594309282313::1791797286::1791872364::1::::<><><>0<>0<>9e44256b9634c879c74429a188546bbd<>res://.godot/imported/King_Poring.png-1d49be0900eb422c643721ca841af01c.ctex::
+Metaller.png::CompressedTexture2D::7107660392302160917::1791797286::1791872363::1::::<><><>0<>0<>ed96f58628ee29bc1cc427dff7844366<>res://.godot/imported/Metaller.png-da40d38dff79ee8689cb02201da67aa1.ctex::
+::res://Assets/Sprites/Monsters/Grassland/::1791872363
+Chonchon.png::CompressedTexture2D::4130897618157691435::1791797286::1791872363::1::::<><><>0<>0<>382dc3c744b457233144b6dad4689fb1<>res://.godot/imported/Chonchon.png-4988d3c1b2a0f50591a5808f87cee80a.ctex::
+Creamy.png::CompressedTexture2D::7635463114626944881::1791797286::1791872363::1::::<><><>0<>0<>cd6159a79cac20e65e83f097a8f865cb<>res://.godot/imported/Creamy.png-4f898dcb0f2c273b87d45c184db8c1c0.ctex::
+Fabre.png::CompressedTexture2D::2828757105602029509::1791797286::1791872363::1::::<><><>0<>0<>aa1531a251d5059f4a0be528b6d13040<>res://.godot/imported/Fabre.png-115a3befc7040d9ab6cec1d75a8c56b5.ctex::
+Poring.png::CompressedTexture2D::832844631056870866::1791797286::1791872363::1::::<><><>0<>0<>188fd9891b4115decb77d4f2adc13acf<>res://.godot/imported/Poring.png-7fb5430d37536173b6f76b525cfa29c1.ctex::
+Pupa.png::CompressedTexture2D::6167823135547398022::1791797286::1791872363::1::::<><><>0<>0<>a35faa75909648d665b6eb9efa390aff<>res://.godot/imported/Pupa.png-712296a2ff463dbe3e1b14904d4648dd.ctex::
+Thief_Bug.png::CompressedTexture2D::1845544465484276909::1791797286::1791872363::1::::<><><>0<>0<>a60d0c123a6f1229fd2d88abd87e9d30<>res://.godot/imported/Thief_Bug.png-00ca622f58a7e9de1b41920e0d7bb8c7.ctex::
+::res://Assets/Sprites/Player/::1791280228
+::res://Assets/Sprites/Player/Body/::1791875364
+::res://Assets/Sprites/Player/Body/Female/::1791875355
+PC _ Computer - Ragnarok Online - Classes (Female) - Archer.png::CompressedTexture2D::1518489609618803312::1791875150::1791875406::1::::<><><>0<>0<>a7635a74b5a41c5d7ab61a8b2601f3a3<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Female) - Archer.png-d50a0f1a1e5a29351da5a80f08228171.ctex::
+PC _ Computer - Ragnarok Online - Classes (Female) - Mage.png::CompressedTexture2D::7536390007394624539::1791304731::1791872363::1::::<><><>0<>0<>0596908518f0c93438b9bd2226196f78<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Female) - Mage.png-e47a54554dc6c355b3d178abbf8e4eb4.ctex::
+PC _ Computer - Ragnarok Online - Classes (Female) - Priest.png::CompressedTexture2D::6265852839188449102::1791875146::1791875406::1::::<><><>0<>0<>357627ff8d3ea311b78a64f929d94501<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Female) - Priest.png-45fcdf2795600f605ebd56edebc86f4c.ctex::
+PC _ Computer - Ragnarok Online - Classes (Female) - Swordsman.png::CompressedTexture2D::5134234635561639015::1791304731::1791872363::1::::<><><>0<>0<>78d47dba397a7177f9b940005870f0a8<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Female) - Swordsman.png-6389a528c1499ce9b079dad69af860a9.ctex::
+PC _ Computer - Ragnarok Online - Classes (Female) - Thief.png::CompressedTexture2D::2496355402286544773::1791304731::1791872363::1::::<><><>0<>0<>848ed97ee219fb137cdd845e9a0fbf0f<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Female) - Thief.png-9f31f7cbd132601222c9c29109c69ca1.ctex::
+::res://Assets/Sprites/Player/Body/Male/::1791875364
+PC _ Computer - Ragnarok Online - Classes (Male) - Archer.png::CompressedTexture2D::5188612359821166301::1791875071::1791875406::1::::<><><>0<>0<>1918beca5f5e43448be6a524a7fc9fec<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Male) - Archer.png-1c10c9bfe2c5083f6d5495e800abb7ff.ctex::
+PC _ Computer - Ragnarok Online - Classes (Male) - Mage.png::CompressedTexture2D::2762333838074728049::1791304731::1791872363::1::::<><><>0<>0<>4e6cc904229dfae14ed226440e96f50c<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Male) - Mage.png-57ea5320ea43f4c57eac475bd8cc0e27.ctex::
+PC _ Computer - Ragnarok Online - Classes (Male) - Priest.png::CompressedTexture2D::895801892833913320::1791875065::1791875406::1::::<><><>0<>0<>50dfd7db910afdeb34db21a95f6c15b9<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Male) - Priest.png-3b6c4e3bba769796b44790cab06ff5aa.ctex::
+PC _ Computer - Ragnarok Online - Classes (Male) - Swordsman.png::CompressedTexture2D::1355446577837559981::1791304731::1791872363::1::::<><><>0<>0<>677c925548d5740daeb5003c0e61b90a<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Male) - Swordsman.png-0cca0dc8a0b507b5cfa2a115a88fcca6.ctex::
+PC _ Computer - Ragnarok Online - Classes (Male) - Thief.png::CompressedTexture2D::7026719255920534001::1791304731::1791872363::1::::<><><>0<>0<>70b4a0ae85a875159e7bcfc1189ff6f4<>res://.godot/imported/PC _ Computer - Ragnarok Online - Classes (Male) - Thief.png-e6451fc9f334a2de1f138dae3f538eb5.ctex::
+::res://Assets/Sprites/Player/Head/::1791280228
+::res://Assets/Sprites/Player/Head/Female/::1791872363
+PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Black.png::CompressedTexture2D::4667359031253906823::1791304731::1791872363::1::::<><><>0<>0<>bf2f73852cf520d38607f2eee8ec716a<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Black.png-d6345869480d28a158d43fc6355cf948.ctex::
+PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Brown.png::CompressedTexture2D::5693925348691589961::1791304731::1791872363::1::::<><><>0<>0<>0c539fc7813c5e4c8086fb786789c835<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Brown.png-23d6697e49eddaad32fcd12096e905ed.ctex::
+PC _ Computer - Ragnarok Online - Heads (Female _ Original) - White.png::CompressedTexture2D::4978707502632987281::1791304731::1791872363::1::::<><><>0<>0<>2c529c38e40f341158a4848a43a2916d<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Female _ Original) - White.png-0865730badba9b8ebb926d6ae76c8c0c.ctex::
+PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Yellow.png::CompressedTexture2D::4198394561371671509::1791304731::1791872363::1::::<><><>0<>0<>a093e685c999dcf64ec7a30e25d655c8<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Female _ Original) - Yellow.png-1dcc4591d4373703143fbeab4022811a.ctex::
+::res://Assets/Sprites/Player/Head/Male/::1791872363
+PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Black.png::CompressedTexture2D::4109882447121269574::1791304731::1791872363::1::::<><><>0<>0<>3c67d7a7a4373d52c510a38e0661a05e<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Black.png-9ae0dfb650083a524a2f671a687661eb.ctex::
+PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Brown.png::CompressedTexture2D::8331651052449282483::1791304731::1791872363::1::::<><><>0<>0<>4229f7d7b7c8922d78b3897dda034b38<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Brown.png-222ddfab83feb9f8b3eb72b75533169b.ctex::
+PC _ Computer - Ragnarok Online - Heads (Male _ Original) - White.png::CompressedTexture2D::2893273030390041506::1791304731::1791872363::1::::<><><>0<>0<>b93f12a04273c2b94b37c8a616d236f6<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Male _ Original) - White.png-3aac38233b40a2c01543a2b3e43751f5.ctex::
+PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Yellow.png::CompressedTexture2D::7774861027880259951::1791304731::1791872363::1::::<><><>0<>0<>a7de9904656d0d18f95077b6d7a2889e<>res://.godot/imported/PC _ Computer - Ragnarok Online - Heads (Male _ Original) - Yellow.png-c80c8c0915597bd45d41a5b82b1b599f.ctex::
+::res://Assets/Weapons/::1791280228
+::res://Data/::1791872255
+CLASS_DATA.json::JSON::-1::1791864425::0::1::::<><><>0<>0<><>::
+ITEM_DATA.json::JSON::-1::1791263617::0::1::::<><><>0<>0<><>::
+LEVEL_CONFIG.json::JSON::-1::1791263526::0::1::::<><><>0<>0<><>::
+STAT_CONFIG.json::JSON::-1::1791866812::0::1::::<><><>0<>0<><>::
+::res://Data/Monsters/::1791872254
+::res://Data/Monsters/Forest/::1791872254
+boa.json::JSON::-1::1791866971::0::1::::<><><>0<>0<><>::
+mantis.json::JSON::-1::1791866971::0::1::::<><><>0<>0<><>::
+poporing.json::JSON::-1::1791866971::0::1::::<><><>0<>0<><>::
+yoyo.json::JSON::-1::1791866971::0::1::::<><><>0<>0<><>::
+::res://Data/Monsters/Forest_Dungeon/::1791872255
+buwaya.json::JSON::-1::1791866972::0::1::::<><><>0<>0<><>::
+dungeon_mantis.json::JSON::-1::1791866972::0::1::::<><><>0<>0<><>::
+king_poring.json::JSON::-1::1791866972::0::1::::<><><>0<>0<><>::
+metaller.json::JSON::-1::1791866972::0::1::::<><><>0<>0<><>::
+::res://Data/Monsters/Grassland/::1791872254
+chonchon.json::JSON::-1::1791866971::0::1::::<><><>0<>0<><>::
+creamy.json::JSON::-1::1791866971::0::1::::<><><>0<>0<><>::
+fabre.json::JSON::-1::1791866971::0::1::::<><><>0<>0<><>::
+poring.json::JSON::-1::1791866971::0::1::::<><><>0<>0<><>::
+pupa.json::JSON::-1::1791866971::0::1::::<><><>0<>0<><>::
+thief_bug.json::JSON::-1::1791866971::0::1::::<><><>0<>0<><>::
+::res://Data/Monsters/Grasslands/::1791310273
+::res://Scenes/::1791869029
+Battle.tscn::PackedScene::7804358483814471671::1791797286::0::1::::<><><>0<>0<><>::uid://cwtyc5swuc5xk::::res://Scripts/Battle.gd
+CharacterSelect.tscn::PackedScene::-1::1791869029::0::1::::<><><>0<>0<><>::res://Scripts/CharacterSelect.gd
+Main.tscn::PackedScene::-1::1791869041::0::1::::<><><>0<>0<><>::res://Scripts/Main.gd
+PostBattle.tscn::PackedScene::-1::1791869009::0::1::::<><><>0<>0<><>::res://Scripts/PostBattle.gd
+::res://Scripts/::1791869115
+Battle.gd::GDScript::6357681488697659168::1791872305::0::1::::<>Node2D<><>0<>0<><>::
+CharacterSelect.gd::GDScript::8363007610815128261::1791872881::0::1::::<>Control<><>0<>0<><>::
+Main.gd::GDScript::2054492458562001647::1791872873::0::1::::<>Control<><>0<>0<><>::
+PostBattle.gd::GDScript::6966006980339795009::1791868942::0::1::::<>Control<><>0<>0<><>::
+::res://Scripts/Autoloads/::1791868580
+DataManager.gd::GDScript::8028676893747070399::1791872297::0::1::::<>Node<><>0<>0<><>::
+GameState.gd::GDScript::4872622398686904875::1791871888::0::1::::<>Node<><>0<>0<><>::
+SaveManager.gd::GDScript::719355485832051646::1791872476::0::1::::<>Node<><>0<>0<><>::
+StatusEffects.gd::GDScript::8219344341164480958::1791868971::0::1::::<>Node<><>0<>0<><>::

@@ -1,0 +1,63 @@
+{
+    "name": "King Poring",
+    "type": "Forest Dungeon Enemy",
+    "level": 20,
+    "avatar": "FD4",
+    "stats": { "atk": 25, "spd": 17, "hp": 120 },
+    "def": 5,
+    "dodge": 0.05,
+    "block": 0.10,
+    "max_energy": 100,
+    "energy": 100,
+    "fire_dmg": 12,
+    "bleed_dmg": 8,
+    "effects": [],
+    "moves": [
+        {
+            "id": "royal_smash",
+            "name": "Royal Smash",
+            "icon": "*",
+            "desc": "A powerful royal smash attack.",
+            "scaling": null,
+            "power": 1.2,
+            "energyCost": 0,
+            "type": "attack",
+            "effect": null
+        },
+        {
+            "id": "bash",
+            "name": "Bash",
+            "icon": "*",
+            "desc": "A bashing strike that cripples the target.",
+            "scaling": null,
+            "power": 1.3,
+            "energyCost": 15,
+            "type": "attack",
+            "effect": { "id": "crippled", "stacks": 1, "duration": 2, "chance": 0.70 }
+        },
+        {
+            "id": "mammonite",
+            "name": "Mammonite",
+            "icon": "*",
+            "desc": "A coin-powered strike that stuns the target.",
+            "scaling": null,
+            "power": 1.2,
+            "energyCost": 12,
+            "type": "attack",
+            "effect": { "id": "stunned", "stacks": 1, "duration": 1, "chance": 0.65 }
+        },
+        {
+            "id": "fire_ball",
+            "name": "Fire Ball",
+            "icon": "*",
+            "desc": "Launches a blazing fireball that burns the target.",
+            "scaling": null,
+            "power": 1.3,
+            "energyCost": 20,
+            "type": "attack",
+            "effect": { "id": "burn", "stacks": 1, "duration": 3, "chance": 0.70 }
+        }
+    ],
+    "exp_give": 200,
+    "drops": []
+}
